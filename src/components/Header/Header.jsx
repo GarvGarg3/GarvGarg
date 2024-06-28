@@ -24,7 +24,7 @@ function Header() {
         </NavItem>
         <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle nav caret>
-            Dropdown
+            Links
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem header>Links</DropdownItem>
