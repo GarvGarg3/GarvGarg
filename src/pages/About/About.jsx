@@ -1,7 +1,6 @@
 // import './About.css';
 import { useState, useEffect } from 'react';
 import AboutCard from '../../components/Aboutcard';
-import '../../stylesheets/About.css'; 
 
 
 export default function About() {
