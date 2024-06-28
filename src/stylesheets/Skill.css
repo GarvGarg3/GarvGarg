@@ -53,7 +53,26 @@
     animation-name: jQueryAni;
     animation-duration: 1s ease-out;
 }
-
+.python{
+    animation-name: pythonAni;
+    animation-duration: 1s ease-out;
+}
+.ML{
+    animation-name: MLAni;
+    animation-duration: 1s ease-out;
+}
+.NN{
+    animation-name: NNAni;
+    animation-duration: 1s ease-out;
+}
+@keyframes MLAni{
+    from {
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
 @keyframes reactAni {
     from {
         width: 0%;
@@ -69,6 +88,23 @@
     }
     to {
         width: 80%;
+    }
+}
+
+@keyframes pythonAni {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes NNAni {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 50%;
     }
 }
 

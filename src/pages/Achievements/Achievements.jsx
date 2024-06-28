@@ -30,10 +30,10 @@ function Achievements() {
           </Col>
           <Col md="9" lg="6" xl="4">
             <Cardview
-              title="World’s Scholar’s Club"
-              subtitle="Participated in the World’s Scholar’s Club"
+              title="World’s Scholar’s Cup"
+              subtitle="Participated in the World’s Scholar’s Cup"
               image={wsc}
-              cardText="Participated in the World’s Scholar’s Club in 2019."
+              cardText="Participated in the World’s Scholar’s Cup in 2019."
             />
           </Col>
         </Row>

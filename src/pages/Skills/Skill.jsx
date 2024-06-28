@@ -37,15 +37,33 @@ function Skill() {
                     </div>
                 </li>
                 <li>
+                    Python:
+                    <div className="skillBar">
+                        <div className="skillLevel python" style={{ width: '90%' }}></div>
+                    </div>
+                </li>
+                <li>
                     jQuery:
                     <div className="skillBar">
                         <div className="skillLevel jQuery" style={{ width: '80%' }}></div>
                     </div>
                 </li>
                 <li>
+                    Machine Learning:
+                    <div className="skillBar">
+                        <div className="skillLevel ML" style={{ width: '80%' }}></div>
+                    </div>
+                </li>
+                <li>
                     React:
                     <div className="skillBar">
                         <div className="skillLevel react" style={{ width: '60%'}}></div>
+                    </div>
+                </li>
+                <li>
+                    Neural Networks:
+                    <div className="skillBar">
+                        <div className="skillLevel NN" style={{ width: '50%'}}></div>
                     </div>
                 </li>
             </ul>
