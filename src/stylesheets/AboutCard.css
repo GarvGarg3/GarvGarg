@@ -1,0 +1,87 @@
+.aboutCard {
+    margin: 30px auto; /* Centering the card */
+    width: 50%;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition effects */
+}
+
+.aboutCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.aboutCardTitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    transition: font-size 0.3s; /* Adding transition effect */
+}
+
+.aboutCardDescription {
+    font-size: 20px;
+    padding: 1rem;
+    transition: font-size 0.3s; /* Adding transition effect */
+}
+
+.aboutCardDescription ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutCard {
+        width: 70%; /* Adjust width for better layout on smaller screens */
+    }
+    .aboutCardTitle {
+        font-size: 28px;
+    }
+    .aboutCardDescription {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .aboutCard {
+        width: 90%; /* Adjust width for better layout on smaller screens */
+    }
+    .aboutCardTitle {
+        font-size: 26px;
+    }
+    .aboutCardDescription {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .aboutCardTitle {
+        font-size: 24px;
+    }
+    .aboutCardDescription {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .aboutCardTitle {
+        font-size: 22px;
+    }
+    .aboutCardDescription {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .aboutCardTitle {
+        font-size: 20px;
+    }
+    .aboutCardDescription {
+        font-size: 14px;
+    }
+}
+
+

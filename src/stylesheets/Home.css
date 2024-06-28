@@ -1,0 +1,200 @@
+:root {
+    overflow-x: hidden;
+}
+
+.homePage {
+    background-image: url('../../assets/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63489.avif');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.homeContainer {
+    display: flex;
+    border: 2px solid #444;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 70%;
+    overflow: hidden;
+    color: #f8f8f8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homeContainer:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.homeDataContainer {
+    width: 55%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataContainer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.helloContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f8f8f8;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.wavingHand {
+    margin-right: 5px;
+    padding-top: 5px;
+    transition: transform 0.3s ease;
+    transform-origin: 70% 70%;
+}
+
+.homeContainer:hover .wavingHand {
+    animation: wave 2s infinite;
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.moreAbout {
+    color: #1e90ff;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: color 0.3s;
+}
+
+.moreAbout:hover {
+    color: #0000b9;
+}
+
+.arrow {
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
+.homeImageContainer {
+    width: 45%;
+}
+
+.homeImg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-position: center;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 922px) {
+    .homeContainer {
+        height: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeContainer {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .homeDataContainer, .homeImageContainer {
+        width: 100%;
+    }
+
+    .homeImageContainer {
+        height: 200px;
+    }
+
+    .dataContainer {
+        font-size: 0.9rem;
+    }
+
+    .helloContainer {
+        font-size: 1.3rem;
+    }
+
+    .linkContainer {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .homeContainer {
+        width: 90%;
+    }
+
+    .dataContainer {
+        font-size: 0.8rem;
+    }
+
+    .helloContainer {
+        font-size: 1.2rem;
+    }
+
+    .linkContainer {
+        font-size: 0.9rem;
+    }
+
+    .homeImg {
+        height: 150px;
+    }
+}
+
+@media (max-width: 440px) {
+    .homeContainer {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .homeDataContainer {
+        margin: 10px;
+    }
+
+    .dataContainer {
+        font-size: 0.7rem;
+    }
+
+    .helloContainer {
+        font-size: 1rem;
+    }
+
+    .linkContainer {
+        font-size: 0.8rem;
+    }
+
+    .homeImg {
+        height: 120px;
+    }
+}
