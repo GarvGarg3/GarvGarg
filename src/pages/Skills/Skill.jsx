@@ -49,7 +49,8 @@ function Skill() {
                     </div>
                 </li>
                 <li>
-                    Machine Learning:
+                    
+                    ML:
                     <div className="skillBar">
                         <div className="skillLevel ML" style={{ width: '80%' }}></div>
                     </div>
@@ -61,7 +62,7 @@ function Skill() {
                     </div>
                 </li>
                 <li>
-                    Neural Networks:
+                    Neural Net:
                     <div className="skillBar">
                         <div className="skillLevel NN" style={{ width: '50%'}}></div>
                     </div>

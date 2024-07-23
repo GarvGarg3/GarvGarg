@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import resume from '../../assets/Resume-Garv Garg (2).pdf'
+import resume from '../../assets/Resume-Garv Garg (3).pdf'
 import {
   Nav,
   NavItem,
